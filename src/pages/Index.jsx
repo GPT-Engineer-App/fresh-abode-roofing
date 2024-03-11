@@ -7,9 +7,7 @@ const Index = () => {
     <Box>
       {/* Hero Section */}
       <Flex bgImage="https://images.unsplash.com/photo-1635424710928-0544e8512eae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxyb29maW5nfGVufDB8fHx8MTcxMDE1MzE2M3ww&ixlib=rb-4.0.3&q=80&w=1080" bgPosition="center" bgRepeat="no-repeat" bgSize="cover" height="70vh" align="center" justify="center" direction="column" textAlign="center" color="white">
-        <Heading as="h1" size="3xl" mb={4}>
-          Abode Roofing
-        </Heading>
+        <Heading as="h1" size="3xl" mb={4} />
         <Text fontSize="xl" mb={6}>
           Protecting Your Home from the Top
         </Text>
@@ -24,7 +22,7 @@ const Index = () => {
           <Heading as="h2" size="xl">
             About Us
           </Heading>
-          <Text fontSize="lg">Abode Roofing has been providing top-notch roofing services for over a decade. Our team of experienced professionals is dedicated to ensuring the safety and satisfaction of our clients. We use the latest technology and materials to deliver long-lasting results.</Text>
+          <Text fontSize="lg">Our company has been providing top-notch roofing services for over a decade. Our team of experienced professionals is dedicated to ensuring the safety and satisfaction of our clients. We use the latest technology and materials to deliver long-lasting results.</Text>
           <Image borderRadius="md" src="https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxyb29maW5nJTIwdGVhbXxlbnwwfHx8fDE3MTAxNjQwNjJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Roofing Team" />
         </VStack>
       </Container>
@@ -129,7 +127,7 @@ const Index = () => {
       {/* Footer Section */}
       <Box bg="blue.600" color="white" py={4}>
         <Container maxW="container.xl" textAlign="center">
-          <Text>&copy; {new Date().getFullYear()} Abode Roofing. All rights reserved.</Text>
+          <Text>&copy; {new Date().getFullYear()}. All rights reserved.</Text>
         </Container>
       </Box>
     </Box>
